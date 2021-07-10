@@ -1,0 +1,353 @@
+.teacher{
+    width: 100%;
+    height: 750px;
+    background-color: #dcd1f0;
+    background-image: url(../../img/Wave_White_bottom_right_shape_01.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .teacher-container{
+        width: 70%;
+        margin: auto; 
+        .item-1 {
+            overflow: hidden;
+            float: left;
+            width: 20%;
+            margin: 20px;
+            transition: all 0.3s;
+            &:hover{
+                box-shadow: 2px 20px 25px #0000003b;
+            }
+            img{
+                width: 250px;
+                object-fit: contain;
+                border: 1px solid transparent;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                transition: transform .3s;
+               
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+            .item-text{
+                text-align: center;
+                padding: 20px 10px;
+                background-color: $color-white-1;
+                border: 1px solid transparent;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                .country{
+                    h3{
+                        @include styleText($fs-6, $fw-3, $color-pink-1);
+                    }  
+                }
+
+                .name{
+                    h5{
+                        @include styleText($fs-7, $fw-4, $color-dark-1);
+                    }
+                }
+            }
+        }
+        .item-2 {
+            float: left;
+            width: 20%;
+            margin: 20px;
+            overflow: hidden;
+            transition: all 0.3s;
+            &:hover{
+                box-shadow: 2px 20px 25px #0000003b;
+            }
+            img{
+                width: 250px;
+                object-fit: contain;
+                border: 1px solid transparent;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                transition: transform .3s;
+               
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+            .item-text{
+                text-align: center;
+                padding: 20px 10px;
+                background-color: $color-white-1;
+                border: 1px solid transparent;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                .country{
+                    h3{
+                        @include styleText($fs-6, $fw-3, $color-pink-1);
+                    }  
+                }
+
+                .name{
+                    h5{
+                        @include styleText($fs-7, $fw-4, $color-dark-1);
+                    }
+                }
+            }
+        }
+        .item-3 {
+            float: left;
+            width: 20%;
+            margin: 20px;
+            overflow: hidden;
+            transition: all 0.3s;
+            &:hover{
+                box-shadow: 2px 20px 25px #0000003b;
+            }
+            img{
+                width: 250px;
+                object-fit: contain;
+                border: 1px solid transparent;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                transition: transform .3s;
+               
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+            .item-text{
+                text-align: center;
+                padding: 20px 10px;
+                background-color: $color-white-1;
+                border: 1px solid transparent;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                .country{
+                    h3{
+                        @include styleText($fs-6, $fw-3, $color-pink-1);
+                    }  
+                }
+
+                .name{
+                    h5{
+                        @include styleText($fs-7, $fw-4, $color-dark-1);
+                    }
+                }
+            }
+        }
+        .item-4 {
+            float: left;
+            width: 20%;
+            margin: 20px;
+            overflow: hidden;
+            transition: all 0.3s;
+            &:hover{
+                box-shadow: 2px 20px 25px #0000003b;
+            }
+            img{
+                width: 250px;
+                object-fit: contain;
+                border: 1px solid transparent;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                transition: transform .3s;
+               
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+            .item-text{
+                text-align: center;
+                padding: 20px 10px;
+                background-color: $color-white-1;
+                border: 1px solid transparent;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                .country{
+                    h3{
+                        @include styleText($fs-6, $fw-3, $color-pink-1);
+                    }  
+                }
+
+                .name{
+                    h5{
+                        @include styleText($fs-7, $fw-4, $color-dark-1);
+                    }
+                }
+            }
+        }
+        .item-5 {
+            float: left;
+            width: 20%;
+            margin: 20px;
+            overflow: hidden;
+            transition: all 0.3s;
+            &:hover{
+                box-shadow: 2px 20px 25px #0000003b;
+            }
+            img{
+                width: 250px;
+                object-fit: contain;
+                border: 1px solid transparent;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                transition: transform .3s;
+               
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+            .item-text{
+                text-align: center;
+                padding: 20px 10px;
+                background-color: $color-white-1;
+                border: 1px solid transparent;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                .country{
+                    h3{
+                        @include styleText($fs-6, $fw-3, $color-pink-1);
+                    }  
+                }
+
+                .name{
+                    h5{
+                        @include styleText($fs-7, $fw-4, $color-dark-1);
+                    }
+                }
+            }
+        }
+
+        .item-6 {
+            float: left;
+            width: 20%;
+            margin: 20px;
+            overflow: hidden;
+            transition: all 0.3s;
+            &:hover{
+                box-shadow: 2px 20px 25px #0000003b;
+            }
+            img{
+                width: 250px;
+                object-fit: contain;
+                border: 1px solid transparent;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                transition: transform .3s;
+               
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+            .item-text{
+                text-align: center;
+                padding: 20px 10px;
+                background-color: $color-white-1;
+                border: 1px solid transparent;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                .country{
+                    h3{
+                        @include styleText($fs-6, $fw-3, $color-pink-1);
+                    }  
+                }
+
+                .name{
+                    h5{
+                        @include styleText($fs-7, $fw-4, $color-dark-1);
+                    }
+                }
+            }
+        }
+
+        .item-7 {
+            float: left;
+            width: 20%;
+            margin: 20px;
+            overflow: hidden;
+            transition: all 0.3s;
+            &:hover{
+                box-shadow: 2px 20px 25px #0000003b;
+            }
+            img{
+                width: 250px;
+                object-fit: contain;
+                border: 1px solid transparent;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                transition: transform .3s;
+               
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+            .item-text{
+                text-align: center;
+                padding: 20px 10px;
+                background-color: $color-white-1;
+                border: 1px solid transparent;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                .country{
+                    h3{
+                        @include styleText($fs-6, $fw-3, $color-pink-1);
+                    }  
+                }
+
+                .name{
+                    h5{
+                        @include styleText($fs-7, $fw-4, $color-dark-1);
+                    }
+                }
+            }
+        }
+
+        .item-8 {
+            float: left;
+            width: 20%;
+            margin: 20px;
+            overflow: hidden;
+            transition: all 0.3s;
+            &:hover{
+                box-shadow: 2px 20px 25px #0000003b;
+            }
+            img{
+                width: 250px;
+                object-fit: contain;
+                border: 1px solid transparent;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                transition: transform .3s;
+               
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+            .item-text{
+                text-align: center;
+                padding: 20px 10px;
+                background-color: $color-white-1;
+                border: 1px solid transparent;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                .country{
+                    h3{
+                        @include styleText($fs-6, $fw-3, $color-pink-1);
+                    }  
+                }
+
+                .name{
+                    h5{
+                        @include styleText($fs-7, $fw-4, $color-dark-1);
+                    }
+                }
+            }
+        }
+    }
+}
+    

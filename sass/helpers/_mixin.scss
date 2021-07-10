@@ -1,0 +1,24 @@
+@mixin styleText($fs, $fw, $color) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+}
+
+@mixin styleBorder($bg, $bd, $bd-radius, $pd, $color) {
+    background: $bg;
+    border: $bd;
+    border-radius: $bd-radius;
+    padding: $pd;
+    color: $color;
+}
+
+
+@mixin styleHover($bg-color, $bd-color, $color) {
+    background-color: $bg-color;
+    border-color: $bd-color;
+    color: $color;
+}
+
+@mixin responsive($screen) {
+
+}

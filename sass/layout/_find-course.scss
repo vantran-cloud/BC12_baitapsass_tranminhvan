@@ -1,0 +1,145 @@
+.course{
+    width: 100%;
+    height: 600px;
+
+    background-image: url(../../img/accent_bottom_wave_01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    .course-content{
+        width: 70%;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        
+        .content-left{
+            width: 50%;
+            justify-content: center;
+            margin-right: 40px;
+            margin: 30px 0;
+        }
+
+        .content-right{
+            width: 50%;
+            margin: 30px 0;
+            .item-right{
+                width: 400px;
+                padding: 30px;
+                border: 1px solid transparent;
+                border-radius: $bd-radius-2;
+                background: $color-white-1;
+                box-shadow: 2px 20px 25px #0000003b;
+
+                .content-title{
+                    h3{
+                        @include styleText($fs-9, $fw-4, $color-dark-1);
+                        text-align: center;
+                    }
+                }
+                .infor{
+                    display: flex;
+                    width: 100%;
+                    margin: auto;
+                    padding: 30px 10px;
+                     
+                    .infor-name{
+                        width: 50%;
+                        
+                        i{
+                            position: absolute;
+                            line-height: 40px;
+                            padding-left: 20px;
+                            color: $color-pink-1;
+                        }
+
+                        .input-field{
+                            width: 150px;
+                            height: 40px;
+                            border: 1px solid $color-grey-2;
+                            border-radius: 20px;
+                            padding-left: 40px;
+                            font-size: 14px;
+                        }
+                    }
+
+                    .infor-mail{
+                        i{
+                            position: absolute;
+                            line-height: 40px;
+                            padding-left: 20px;
+                            color: $color-pink-1;
+                        }
+
+                        .input-field{
+                            width: 150px;
+                            height: 40px;
+                            border: 1px solid $color-grey-2;
+                            border-radius: 20px;
+                            padding-left: 40px;
+                            font-size: 14px;
+                        }
+                    }
+
+                }
+
+                .eng{
+                    padding: 0 10px;
+                    margin-bottom: 30px;
+                    i{
+                        position: absolute;
+                        text-align: center;
+                        line-height: 40px;
+                        padding-left: 20px;
+                        color: $color-pink-1;
+                    }
+
+                    .input-field{
+                        width: 320px;
+                        height: 40px;
+                        border: 1px solid $color-grey-2;
+                        border-radius: 20px;
+                        padding-left: 40px;
+                        font-size: 14px;
+                    }
+                }
+
+                .mess{
+                    padding: 0 10px;
+                    margin-bottom: 40px;
+                    i{
+                        position: absolute;
+                        line-height: 32px;
+                        padding-left: 20px;
+                        color: $color-pink-1;
+                    }
+
+                    .input-field{
+                        width: 320px;
+                        border: 1px solid $color-grey-2;
+                        border-radius: 20px;
+                        padding-left: 40px;
+                        font-size: 14px;
+                        
+                    }
+                }
+
+                .btn{
+                    @include styleText($fs-1, $fw-2, $color-white-1);
+                    width: 140px;
+                    height: 45px;
+                    border: 1px solid transparent;
+                    border-radius: 20px;
+                    background: $color-pink-1;
+                    transition: all 0.5s;
+                    &:hover{
+                        @include styleText($fs-1, $fw-2, $color-pink-1);
+                        background: $color-white-1;
+                        border-color: $color-pink-1;
+                    }
+                }
+            }
+            
+        }
+    }
+
+}

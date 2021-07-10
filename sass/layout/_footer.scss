@@ -1,0 +1,143 @@
+.myFooter{
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background-image: url(../../img/footer_background.jpg);
+    background-position:center;
+    background-size: cover;
+
+    .footer-item{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+
+        .contact{
+            width: 25%;
+            padding: 20px;
+            margin-top: 60px;
+            .contact-text{
+                h3{
+                    @include styleText($fs-7, $fw-4, $color-white-1);
+                    margin-bottom: 20px;
+                }
+                
+            }
+
+            .add-footer{
+                .footer-icon{
+                    color: $color-white-1;
+                    i{
+                        color: $color-white-1;
+                        padding: 10px 10px;
+                    }
+                    
+                }
+            }
+            .icon-social{
+                i{
+                    color: $color-white-1;
+                    padding: 15px 5px;
+                    transition: all 0.5s;
+                    &:hover{
+                        color: $color-dark-1;
+                    }
+                }
+            }
+        }
+
+        .quick-links{
+            width: 25%;
+            padding: 20px;
+            margin-top: 60px;
+            .quick-title{
+                h3{
+                    @include styleText($fs-7, $fw-4, $color-white-1);
+                    margin-bottom: 20px;
+                }
+            }
+
+            .quick-text{
+                
+                ul{
+                    list-style: none;
+                    
+                    li{
+                        border-bottom: 1px solid $color-grey-2;
+
+                        a{
+                        
+                            text-decoration: none;
+                            color: $color-white-1;
+                        }
+                    }
+                    
+                }
+                
+            }
+        }
+
+        .about{
+            width: 25%;
+            padding: 20px;
+            margin-top: 60px;
+            .about-title{
+                h3{
+                    @include styleText($fs-7, $fw-4, $color-white-1);
+                    margin-bottom: 20px;
+                }
+            }
+
+            .about-text{
+                ul{
+                    list-style: none;
+                    li{
+                        border-bottom: 1px solid $color-grey-2;
+                        a{
+                            text-decoration: none;
+                            color: $color-white-1;
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+        .news{
+            width: 25%;
+            padding: 20px;
+            margin-top: 60px;
+            h3{
+                @include styleText($fs-7, $fw-4, $color-white-1);
+                margin-bottom: 40px;
+            }
+            
+
+            .btn-email{
+                border: 1px solid $color-grey-1;
+                background-color: $color-pink-1;
+                width: 300px;
+                height: 45px;
+                border-radius: 25px;
+                margin-bottom: 10px;
+                color: $bd-color-2
+            }
+            .btn-sub{
+                @include styleText($fs-1, $fw-2, $color-dark-1);
+                background: $color-white-1;
+                border: 1px solid $color-white-1;
+                width: 300px;
+                height: 45px;
+                border-radius: 25px;
+                margin-bottom: 10px;
+                transition: all 0.5s;
+                &:hover{
+                    @include styleText($fs-1, $fw-2, $color-white-1);
+                    border: 1px solid $color-white-1;
+                    background: $color-pink-1;
+                }
+            }
+        }
+    }
+}
